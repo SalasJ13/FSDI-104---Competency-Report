@@ -1,1 +1,122 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/fondoborr5.jpg') no-repeat center top;;   
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #fabe92;
+}
+body{
+    color: #343a40;
+}
+.nav{
+    background-color: #eb7171;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    margin-right: 30px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color:#c33537;
+}
+a:hover{
+    color:#c33537;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    margin-left: 15px;
+
+}
+.nav-icon{
+    justify-content:left
+}
+/*PAGINA del registro*/
+
+.display-h1{
+    font-size: 75px;
+    text-align: center;
+
+}
+.display-h2{
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    /*border: 1px solid #999; No usar esta lÃ­nea y dejar box-shadow hace efecto de profundidad*/
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.btn-add:hover{
+    background-color:#c33537;
+}
+/*Botn de busqueda */
+.btn-search{
+    border: #d6775a;
+    padding:6px;border-radius:10px;
+    background-color: #d6775a;
+    width:120px;
+    float:center;
+text-align: center;
+color: white;}
+
+.btn-search:hover{
+    background-color:#c33537;
+}
+
+footer p{
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+}
+/*Pagina del HOME */
+.post-inicio{
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    font-size: 17px;
+}
+.display-1{
+    position: absolute;
+    top: 90px;
+    left: 580px;
+}
+.btn-register{
+    color: white;
+    text-decoration: none;
+}
+.btn-register:hover{
+    color: white;
+}
