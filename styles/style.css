@@ -1,1 +1,49 @@
+.error{
+    border-color: red;
+}
 
+.error-label{
+    color: green;
+}
+
+/*.my-card{
+    width: 200px;
+    border-color: gray;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+}*/
+
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+
+}
+
+tr:nth-child(even){
+	background-color: #fabe92;;
+}
+
+tr:hover td{
+	background-color: #d6ccc2;
+	color: darkslategrey;
+}
+.btn-warning{
+    background-color:  #d6775a; 
+    border:  #d6775a; 
+    color: black;
+}
+.btn-warning:hover{
+    background-color: #c33537 ;
+}
+.highlight{
+    background-color: #4ee90c;
+    color:  #a05f2e ;
+}
